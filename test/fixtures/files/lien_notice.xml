@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LienNotice version="1.2">
+  <Vehicle>
+    <VIN>5LDEMAA0000000001</VIN>
+  </Vehicle>
+  <Lienholder code="SCU-0042">
+    <Name>Sample Credit Union</Name>
+  </Lienholder>
+  <Amount currency="USD">45000.00</Amount>
+</LienNotice>
