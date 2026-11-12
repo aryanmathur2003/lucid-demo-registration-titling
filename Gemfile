@@ -6,6 +6,9 @@ gem "rails", "~> 7.1.3"
 gem "sqlite3", "~> 1.7"
 gem "puma", "~> 6.4"
 
+# Rails 7.1 test runner is not compatible with minitest 6.
+gem "minitest", "~> 5.25"
+
 # Parses lien notices sent by lenders. Pinned when the lender integration
 # was first built.
 gem "rexml", "3.2.6"
