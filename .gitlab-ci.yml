@@ -1,0 +1,13 @@
+# GitLab equivalent of .github/workflows/ci.yml, kept in step with it.
+stages:
+  - test
+
+test:
+  stage: test
+  image: ruby:3.3
+  variables:
+    RAILS_ENV: test
+  script:
+    - bundle install
+    - bin/rails db:schema:load
+    - bin/rails test
